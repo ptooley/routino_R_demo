@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export SPACK_ROOT="/usr/local/community/rse/spack"
+source $SPACK_ROOT/share/spack/setup-env.sh
 spack load routino
 
 routino_dir="/data/$USER/routino-data"
